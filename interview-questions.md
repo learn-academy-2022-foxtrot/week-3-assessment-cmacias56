@@ -16,7 +16,7 @@ Researched answer: JSX helps REACT describe what and how a UI should look and fe
 
 Your answer: Yarn is a package manager that was created in 2016, yarn also adds node_ modules, yarn.lock. and package json.
 
-Researched answer:
+Researched answer: Yarn is a package manager for Javascript, that was created by Facebook in 2016. Yarn replaces the work for npm (largest software library (super cool to know!)) client or other package managers while remaining compatible with the npm registry. Yarn places dependencies locally were as npm pulls dependencies from the npm registry during every npm install. Yarn modifies in react by adding additional files such as node_modules, yarn.lock, and package j.son.
 
 3. What is an anonymous function in JavaScript?
 

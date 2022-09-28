@@ -39,7 +39,28 @@ const fibLength2 = 10
 // Ran all test suites.
 
 // b) Create the function that makes the test pass.
+// create a function named fibOrder
+// create variables, num1 and num2 with a new value
+// add in a new variable called fibAdd to hold num1 + num2
+// need a new but empty array, newFibArr
+// for loop for our inptu number to iterate 
+// using .push to push num1 into the empty array 
+// return newly filled array newfibArr
 
+const fibOrder = (fibLength1) => {
+  let num1 = 1;
+  let num2 = 1;
+  let newFibArr = [];
+
+  for (let i = 0; i < fibLength1; i++) {
+    let fibAdd = num1 + num2
+    newFibArr.push(num1);
+    num1 = num2;
+    num2 = fibAdd;
+
+  }
+  return newFibArr
+}
 
 
 
@@ -92,15 +113,15 @@ const studyMinutesWeek2 = {
 // create a new but empty array for the new return which will be represented by arr1
 // utilize a series of methods such as push and sort
 
-// const array1 = (value) => {
-//   const arr1 = [];
-//   for (const key in value) {
-//     arr1.push(value[key]);
-//   }
-//   return arr1.sort((a, b) {
-//     return a - b;
-//   });
-// };
+const array1 = (value) => {
+  const arr1 = [];
+  for (const key in value) {
+    arr1.push(value[key]);
+  }
+  return arr1.sort((a, b) {
+    return a - b;
+  });
+};
 
 
 // PASS  ./code-challenges.test.js
