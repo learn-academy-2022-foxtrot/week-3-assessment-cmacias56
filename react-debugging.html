@@ -63,13 +63,17 @@
           padding: "10px"
         }
         // No need to change anything ABOVE this line ^
-
+          // 3 errors found and corrected! <></> added, onClick given a purpose, sneaky typo was corrected! 3 wks ago me wouldnt even be able to read.. look at me now!
         return (
+          <>
+          {/*for STARTERS I added fragments to contain this whole thread....*/}
           <h1>Draw a Card</h1>
-          <button onClick={}>
+          <button onClick={drawCard}> 
+            {/*I added the variable drawCard into the onClick to give it a purpose.... able to draw the card now..... i tried to pull a few hands... not going to vegas anytime soon it seems :(  */}
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+          <button onClick={shuffle}>
+            {/*corrected the sneaky typo and capitalized 'C'.*/}
             Return Cards and Shuffle Deck
           </button>
           <div style={handStyles}>
@@ -81,6 +85,7 @@
               )
             })}
           </div>
+          </>
         )
       }
 
